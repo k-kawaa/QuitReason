@@ -1,0 +1,6 @@
+name: QuitReason
+main: apartkktrain\quitreason\Main
+version: 2.0.0
+api: 3.12.0
+auther: apartkktrain
+
