@@ -50,11 +50,11 @@ class Main extends PluginBase implements Listener
 
     	}
     	if ($reason === 'timeout') {
-    		$event->setQuitMessage("§6[§b退室§6]§a $name がタイムアウトにより退室しました。");
+    		$event->setQuitMessage($quit2);
     		return true;
     	}
     	if ($reason === 'Internal server error') {
-    		$event->setQuitMessage("§6[§b退室§6]§a $name がサーバーエラーにより退室しました。\n§4サーバー管理者又は開発者まで報告をお願いします。");
+    		$event->setQuitMessage($quit3);
     		return true;
     	}
     }
